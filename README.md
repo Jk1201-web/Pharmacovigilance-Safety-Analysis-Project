@@ -24,14 +24,21 @@ The objective of this project was to understand the practical workflow followed 
 - Therapeutic indications
 
 ## Pharmacovigilance Workflow Performed
-1.-  Data Cleaning and Preparation
+1. Data Cleaning and Preparation
 - Organized raw FAERS data
 - Removed formatting inconsistencies
 - Structured columns for analysis
 - Standardized data fields
-2.-  MedDRA Coding
-
-
+2. MedDRA Coding
+- Performed mapping of adverse events into:
+   - Preferred Terms (PT)
+   - System Organ Classes (SOC)
+```
+| Primary Reaction | PT          | SOC                                  |
+| ---------------- | ----------- | ------------------------------------ |
+| Pneumonia        | Pneumonia   | Infections and infestations          |
+| Neutropenia      | Neutropenia | Blood and lymphatic system disorders |
+```
 
 
 
