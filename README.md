@@ -77,6 +77,7 @@ The objective of this project was to understand the practical workflow followed 
 - Created pivot tables and visual dashboards using Excel.
 
 #### Dashboard Included:
+-Dashboard[dashboard.png]
 - Top reported adverse reactions
 - Serious vs non-serious events
 - MedDRA SOC distribution
